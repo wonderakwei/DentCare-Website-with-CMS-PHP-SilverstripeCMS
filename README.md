@@ -1,15 +1,17 @@
-# DentCare CMS
+# DentCare website with CMS
 
 ## Project Overview
 
-The DentCare CMS is designed to manage the content of a dental clinic website, providing dynamic pages and a responsive design. The CMS will include the following sections:
+The DentCare CMS is designed to manage the content of a dental clinic website, providing dynamic pages and a responsive design. The CMS includes the following sections:
 
 - Home
 - About
 - Services
 - Pages
 - Contact
-- Images
+
+![Homepage About Us](previews/homepage-about-us.png)
+![Admin Dashboard CMS](previews/Admin-dashboard-CMS.png)
 
 ## Features
 
@@ -27,4 +29,3 @@ The DentCare CMS is designed to manage the content of a dental clinic website, p
 - Composer
 - A web server (e.g., Apache or Nginx)
 - MySQL 5.6+ or MariaDB
-
