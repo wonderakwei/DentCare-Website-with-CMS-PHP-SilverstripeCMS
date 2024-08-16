@@ -11,6 +11,8 @@ The DentCare CMS is designed to manage the content of a dental clinic website, p
 - Contact
 
 ![Homepage About Us](previews/homepage-about-us.png)
+
+-------
 ![Admin Dashboard CMS](previews/Admin-dashboard-CMS.png)
 
 ## Features
