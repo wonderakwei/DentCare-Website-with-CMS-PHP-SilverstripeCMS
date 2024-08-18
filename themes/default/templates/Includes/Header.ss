@@ -17,7 +17,10 @@
     <div class="row gx-0">
         <div class="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
             <div class="d-inline-flex align-items-center">
-                <small class="py-2"><i class="far fa-clock text-primary me-2"></i>Opening Hours: Mon - Tues : 6.00 am - 10.00 pm, Sunday Closed</small>
+                <small class="py-2">
+                    <i class="far fa-clock text-primary me-2"></i>
+                    Opening Hours: $SiteConfig.OpeningHours
+                </small>
             </div>
         </div>
         <div class="col-md-6 text-center text-lg-end">
@@ -32,7 +35,8 @@
         </div>
     </div>
 </div>
-<!-- Topbar End -->
+
+<!-- Topbar End  -->
 
 <!-- Navbar Start -->
 <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0">
@@ -44,26 +48,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <% include Navigation %>
-        <button type="button" class="btn text-dark" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></button>
-
     </div>
 </nav>
 <!-- Navbar End -->
 
-<!-- Full Screen Search Start -->
-<div class="modal fade" id="searchModal" tabindex="-1">
-    <div class="modal-dialog modal-fullscreen">
-        <div class="modal-content" style="background: rgba(9, 30, 62, .7);">
-            <div class="modal-header border-0">
-                <button type="button" class="btn bg-white btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body d-flex align-items-center justify-content-center">
-                <div class="input-group" style="max-width: 600px;">
-                    <input type="text" class="form-control bg-transparent border-primary p-3" placeholder="Type search keyword">
-                    <button class="btn btn-primary px-4"><i class="bi bi-search"></i></button>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Full Screen Search End -->

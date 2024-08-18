@@ -1,0 +1,7 @@
+---
+Name: myroutes
+After: '#coreroutes'
+---
+SilverStripe\Control\Director:
+  rules:
+    'search': 'App\Controllers\SearchPageController'
